@@ -28,16 +28,12 @@ public class MainActivity extends AppCompatActivity {
                 }
                 Intent intent = new Intent();
                 intent.setClass(MainActivity.this,Main2.class);
-
                 Bundle bndl = new Bundle();
                 bndl.putDouble("height",height);
                 bndl.putString("sex",sex);
-
                 intent.putExtras(bndl);
-
-                /*调用Activity EX03_10_1*/
                 startActivity(intent);
             }   /* end of onClick()  */
-        } /* end of Button.OnClickListener() */ ) ;
-    }  /* end of onCreate()  */
-}  /* end of class EX03_10  */
+        } ) ;
+    }
+}
