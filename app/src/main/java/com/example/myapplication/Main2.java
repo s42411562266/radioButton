@@ -25,7 +25,7 @@ public class Main2 extends Activity
         String weight = this.getWeight (sex, height);
         TextView tv1=(TextView) findViewById(R.id.text1);
         tv1.setText("你是一位"+sexText+"\n你的身高是"+height+
-                "cm\n你的標準體重是"+weight+"公斤");
+                "cm\n你的標準體重是"+weight+"kg");
         tv1.setTextSize(35);
     }
 
